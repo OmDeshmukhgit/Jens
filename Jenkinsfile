@@ -19,7 +19,7 @@ pipeline {
       steps {
         sh '''
           echo "Deploying site..."
-          cp -r * /var/www/html/
+          cp -rv ./* /var/www/html/
           echo "Site deployed successfully!"
         '''
       }
