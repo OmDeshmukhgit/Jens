@@ -7,7 +7,7 @@ body {
 
 .container {
   text-align: center;
-  margin-top: 1000px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 
 button {
   background-color: #3498db;
-  color: black;
+  color: red;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
